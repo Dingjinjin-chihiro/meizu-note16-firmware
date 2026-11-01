@@ -1,0 +1,162 @@
+{
+  "generated": "2026-11-01T08:04:17+08:00",
+  "device": {
+    "model": "MEIZU Note 16",
+    "codename": "MeizuNote16",
+    "board": "M521Q",
+    "soc": "UNISOC UMS9621S",
+    "platform": "ums9621",
+    "build": "Flyme 12.0.1.7A (AP3A.240905.015.A2)",
+    "android": "15",
+    "slot": "a",
+    "kernel": "5.15.149-android13-8-gbc2d40003b67-ab428"
+  },
+  "archive": {
+    "name": "boot-images.tar.gz",
+    "size": 54017651,
+    "sha256": "1f6f53de1d86a80362d5568e8c73dba2501e6a2ea0709386f4216d8b73dbe21c",
+    "format": "tar+gzip"
+  },
+  "parts": [
+    {
+      "name": "boot-images.tar.gz.part-01",
+      "size": 27262976,
+      "sha256": "0fad748aa34b5f94e38e00ad5a92492b131515f07c0010a84868d5fe2eec544a"
+    },
+    {
+      "name": "boot-images.tar.gz.part-02",
+      "size": 26754675,
+      "sha256": "8b46cc573e5742397b18cd894fb8cf1b6513f293e06ca208280ddba1fc5cba85"
+    }
+  ],
+  "files": [
+    {
+      "name": "boot_a.bin",
+      "size": 67108864,
+      "sha256": "0bf02ab8a54e8382bc4aebe40bfb89dedbba671205b3a6e81e70a3cee05c5806"
+    },
+    {
+      "name": "boot_b.bin",
+      "size": 67108864,
+      "sha256": "20d9bfa8ab1d046fdbb08e96104550d2347c06e7fe827fee06c002ad88c4c456"
+    },
+    {
+      "name": "init_boot_a.bin",
+      "size": 8388608,
+      "sha256": "6064dabd83c6da2735cc3e2475feaca3455037c048091c14a9f5a53aa4dd0d51"
+    },
+    {
+      "name": "init_boot_b.bin",
+      "size": 8388608,
+      "sha256": "8b348cffd6511b06e72a3e84d7e61ec8f705275dfd329b811413f1dde9a05404"
+    },
+    {
+      "name": "misc.bin",
+      "size": 1048576,
+      "sha256": "f7d5933b62f1508ed9c878f5c6cd50d761da9eed9ccd4fca4c0c01741454e273"
+    },
+    {
+      "name": "miscdata.bin",
+      "size": 1048576,
+      "sha256": "d9b985295876a1d2baf7fdb0f59231b98370f39939014ef31e9ce56a394d958b"
+    },
+    {
+      "name": "proinfo.bin",
+      "size": 1048576,
+      "sha256": "d280effb52226e3fb2a6e9ff96466edf180cf062c9ac147effa414ea19ffeb7f"
+    },
+    {
+      "name": "sml_a.bin",
+      "size": 1048576,
+      "sha256": "f4ab154be8c430c3b346a946106b8196b714e839404d9a0efd9c415e7ebc4eb4"
+    },
+    {
+      "name": "sml_b.bin",
+      "size": 1048576,
+      "sha256": "64d3f2514530cab29257bd380da95f75105a54b0630401747724fa73ac40146b"
+    },
+    {
+      "name": "splloader.bin",
+      "size": 262144,
+      "sha256": "49f10a80302db6985f7cf30456d8f0e285a93bac61ce1e7c4cbfe1eef891058e"
+    },
+    {
+      "name": "trustos_a.bin",
+      "size": 6291456,
+      "sha256": "6931c36fbfc4b3cb8cce2ad5dadd85f94c34f02afc92249d7d6e5a6c7e945aee"
+    },
+    {
+      "name": "trustos_b.bin",
+      "size": 6291456,
+      "sha256": "5e8bae212f73fdd53488f6bb074b3999f6c9ad7626a29e03a2c7005940386c10"
+    },
+    {
+      "name": "uboot_a.bin",
+      "size": 3145728,
+      "sha256": "84ff8949604481e9776268d1899968babf79c79c4af963c1b7fe0d8e87d712a5"
+    },
+    {
+      "name": "uboot_b.bin",
+      "size": 3145728,
+      "sha256": "07cf05e88d5c12764e88bca231c910a4dc983554c3330cbbbaccc4bf64761c5b"
+    },
+    {
+      "name": "vbmeta_a.bin",
+      "size": 1048576,
+      "sha256": "7802e9b9ff854b5f1ede286270e621ec0620d82f16a60706bd07dc9f42eba1de"
+    },
+    {
+      "name": "vbmeta_b.bin",
+      "size": 1048576,
+      "sha256": "7802e9b9ff854b5f1ede286270e621ec0620d82f16a60706bd07dc9f42eba1de"
+    },
+    {
+      "name": "vbmeta_odm_a.bin",
+      "size": 1048576,
+      "sha256": "603048012ce23aabc9cf2c290f5d8c6d41c19d6e1c70ae6aa53cf41d99cf7696"
+    },
+    {
+      "name": "vbmeta_odm_b.bin",
+      "size": 1048576,
+      "sha256": "f8530fedb486c38825442a73cfd9aa1fe84f9ef602394d04ec401635b32affa2"
+    },
+    {
+      "name": "vbmeta_product_a.bin",
+      "size": 1048576,
+      "sha256": "7778416bb48e3938f33762d7d72aad69dc729f906031abbad9a2565703e92791"
+    },
+    {
+      "name": "vbmeta_product_b.bin",
+      "size": 1048576,
+      "sha256": "059d2b2a2e173d4583cee728412b52b654e342abfa953af111b44ebef29eb827"
+    },
+    {
+      "name": "vbmeta_system_a.bin",
+      "size": 1048576,
+      "sha256": "1367791e367572fe7a11685b2a4438568a4dfc8f15601c569e1279e8bd06e8dd"
+    },
+    {
+      "name": "vbmeta_system_b.bin",
+      "size": 1048576,
+      "sha256": "591c1c9f1410c7fdc27aa28705959c60586433c7c50df18467f86bc54943d3af"
+    },
+    {
+      "name": "vbmeta_vendor_a.bin",
+      "size": 1048576,
+      "sha256": "8aea3a935850af12d4a9ea33147370b3b35d3934a63f5af50a5eca837a6a1a4c"
+    },
+    {
+      "name": "vbmeta_vendor_b.bin",
+      "size": 1048576,
+      "sha256": "064b44333e914b634074fe6f20d6226aef1188410f44f0223268e36604ce3c7f"
+    }
+  ],
+  "excluded": [
+    "super (10 GiB, 系统动态分区，体积超限)",
+    "userdata / cache / blackbox (用户数据与缓存)",
+    "prodnv / persist / nr_* / calinv / mzkv / rstinfo (含 IMEI 与射频校准等设备私有数据)"
+  ],
+  "restore": [
+    "merge parts -> verify sha256 -> tar -xzf -> spd_dump w <partition> <file>"
+  ]
+}
